@@ -5,11 +5,11 @@ variable "access_key" {
 
 variable "secret_key" {
   description = "AWS User account Profile"
-  default = "jMDlG+LAnWIyKdWa0ujpMd0MMLD+z4zVkgQ4ALe"
+  default = "1jMDlG+LAnWIyKdWa0ujpMd0MMLD+z4zVkgQ4ALe"
 }
 
 variable "region" {
-  default = "us-south-1"
+  default = "us-east-1"
 }
 
 variable "key" {
@@ -22,7 +22,7 @@ variable "sub_ids" {
 }
 
 variable "instance-ami" {
-  default = "ami-0ded8326293d3201b" # AMI of Mumbai region
+  default = "ami-0f34c5ae932e6f0e4" # AMI of Mumbai region
 }
 
 variable "instance_type" {
