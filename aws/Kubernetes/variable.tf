@@ -1,13 +1,20 @@
-variable "profile" {
+variable "access_key" {
   description = "AWS User account Profile"
+  default = "AKIA356ALAQPEDU6GNDU"
+}
+
+variable "secret_key" {
+  description = "AWS User account Profile"
+  default = "1jMDlG+LAnWIyKdWa0ujpMd0MMLD+z4zVkgQ4ALe"
 }
 
 variable "region" {
-  default = "ap-south-1"
+  default = "us-east-1"
 }
 
 variable "key" {
   description = "Enter Key name"
+  default = "Java-project-key"
 }
 
 variable "sub_ids" {
@@ -15,7 +22,7 @@ variable "sub_ids" {
 }
 
 variable "instance-ami" {
-  default = "ami-0b99c7725b9484f9e" # AMI of Mumbai region
+  default = "ami-0f34c5ae932e6f0e4" # AMI of Mumbai region
 }
 
 variable "instance_type" {
@@ -25,13 +32,16 @@ variable "instance_type" {
 
 variable "cluster-name" {
   description = "Cluster Name"
+  default = "eks-demo"
 }
 
 variable "server-name" {
   description = "Ec2 Server Name"
+  default = "eks-demo"
 }
 
 variable "vpc_name" {
   description = "VPC name"
+  default = "eks-demo"
 }
   
