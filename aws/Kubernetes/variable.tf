@@ -5,7 +5,7 @@ variable "access_key" {
 
 variable "secret_key" {
   description = "AWS User account Profile"
-  default = "1jMDlG+LAnWIyKdWa0ujpMd0MMLD+z4zVkgQ4ALe"
+  default = "jMDlG+LAnWIyKdWa0ujpMd0MMLD+z4zVkgQ4ALe"
 }
 
 variable "region" {
